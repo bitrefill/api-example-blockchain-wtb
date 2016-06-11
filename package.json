@@ -1,0 +1,27 @@
+{
+  "name": "bitrefill-api-example",
+  "version": "1.0.0",
+  "description": "Playground code to experiment with Bitrefill.com API",
+  "main": "refill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitrefill/api-example-blockchain-wtb.git"
+  },
+  "author": "Sergej Kotliar <sergej@bitrefill.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitrefill/api-example-blockchain-wtb/issues"
+  },
+  "homepage": "https://github.com/bitrefill/api-example-blockchain-wtb#readme",
+  "dependencies": {
+    "bitcore-wallet-client": "^2.6.0",
+    "bluebird": "^3.4.0",
+    "debug": "^2.2.0",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.13.1",
+    "request-promise": "^3.0.0"
+  }
+}
